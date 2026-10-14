@@ -9,6 +9,7 @@ import Footer from './containers/footer/Footer'
 import Brand from './components/brand/Brand'
 import CTA from './components/cta/CTA'
 import './App.css'
+import Feature from './components/fearture/Feature'
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Features />
+      <Feature />
       <Possibility />
       <CTA />
       <Blog />
